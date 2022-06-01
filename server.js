@@ -64,7 +64,7 @@ app.listen(port, () => {
 });
 
 app.get("/", function(req, res) {
-  res.send("Hello World Heroku");
+  res.send("Hello World Heroku. Deployed Success.");
   })
 
 // Socket.io - Server configurations and functionalities
