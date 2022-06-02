@@ -52,7 +52,7 @@ router.get("/sgroup/:id", (req, res) => {
   });
 });
 
-//get specific student group detail using group id
+//get specific student group detail using student group id
 
 router.get("/stugroup/:id",(req,res) =>{
   let gId = req.params.id;
