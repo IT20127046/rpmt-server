@@ -28,6 +28,7 @@ const chatGroupRoutes = require('./routes/chatMsg');
 const markingSchemRoutes = require('./routes/markingSchem');
 const downloadFileRoutes = require('./routes/downloadFile');
 const supportMsgRoutes = require('./routes/supportMsg');
+const noticeRoutes = require('./routes/notice');
 
 //app middleware
 
@@ -50,6 +51,7 @@ app.use(chatGroupRoutes);
 app.use(markingSchemRoutes);
 app.use(downloadFileRoutes);
 app.use(supportMsgRoutes);
+app.use(noticeRoutes);
 
 const port = process.env.PORT || 5000;
 const uri = process.env.MONGO_URI;
