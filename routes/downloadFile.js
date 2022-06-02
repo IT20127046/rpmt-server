@@ -6,7 +6,7 @@ router.post('/file/download', (req,res)=>{
     const filename = req.body.fileName;
     //console.log(filename);
 
-    res.download(`./frontend/public/uploads/${filename}`);
+    res.download(`./uploads/${filename}`);
 
 });
 
