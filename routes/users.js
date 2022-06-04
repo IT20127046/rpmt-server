@@ -50,7 +50,7 @@ router.post('/user/registration', (req, res) => {
                 errorMessage: 'Something went wrong!',
                 status: false
               });
-              console.log("error: " + err);
+              // console.log("error: " + err);
             });
         })
 
